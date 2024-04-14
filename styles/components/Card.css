@@ -1,0 +1,36 @@
+.Card {
+    background-color: var(--Card-backgroundColor);
+    box-shadow: 0 10px 50px 0 var(--Card-shadowColor);
+    max-width: 24rem;
+    margin:        20px;
+    padding:       20px;
+    border-radius: var(--Card-borderRadius);
+    animation: open .36s ease-in-out;
+}
+
+    .Card-header {
+        border-radius: var(--Card-header-borderRadius);
+        overflow: clip;
+    }
+
+    .Card-main {
+        display: flex;
+        gap:     10px;
+        margin: var(--Card-borderRadius);
+    }
+
+    .Card-title {
+        color: var(--Card-title-backgroundColor);
+        line-height: 1.2em;
+    }
+
+    .Card-description {
+        color: var(--Card-description-backgroundColor);
+    }
+
+@keyframes open {
+    from {
+        opacity: 0;
+        transform: perspective(400px) rotateX(-45deg) scale(.5);
+    }
+}

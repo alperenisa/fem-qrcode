@@ -1,0 +1,9 @@
+@import url(reset.css);
+@import url(../fonts/Outfit/outfit.css);
+@import url(variables.css);
+@import url(utitilies.css);
+@import url(global.css);
+
+/* Components */
+/* (there is only 1 component lmao) */
+@import url(components/Card.css);

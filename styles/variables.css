@@ -1,0 +1,18 @@
+:root {
+    --colorWhite: hsl(0, 0%, 100%);
+    --colorWhiteGray: hsl(212, 45%, 89%);
+    --colorGrayshBlue: hsl(220, 15%, 55%);
+    --colorDarkBlue: hsl(218, 44%, 22%);
+
+    --font: 'Outfit', sans-serif;
+    --fontSize: 15px;
+
+    --Root-backgroundColor: var(--colorWhiteGray);
+
+    --Card-backgroundColor: var(--colorWhite);
+    --Card-shadowColor: hsla(218, 44%, 22%, .2);
+    --Card-title-backgroundColor: var(--colorDarkBlue);
+    --Card-description-backgroundColor: var(--colorGrayshBlue);
+    --Card-borderRadius: 20px;
+    --Card-header-borderRadius: calc(var(--Card-borderRadius) / 2);
+}

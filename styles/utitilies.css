@@ -1,0 +1,20 @@
+/*************************************\ 
+  #ALIGNING
+\*************************************/
+.u-HalignCenter {
+    display:           flex;
+    flex-direction:  column;
+    align-items:     center;
+}
+
+.u-ValignCenter {
+    display:           flex;
+    flex-direction:  column;
+    justify-content: center;
+}
+
+.u-AlignTextCenter {
+  text-align: center;
+}
+
+.u-Grow { flex-grow: 100; }
